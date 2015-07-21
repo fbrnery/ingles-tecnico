@@ -1,0 +1,8 @@
+2.9 presence
+This helper validates that the specified attributes are not empty. It uses the 
+blank? method to check if the value is either nil or a blank string, that is, a
+string that is either empty or consists of whitespace.
+
+O helper valida que os atributos especificados não estão vazios. Ele usa o
+método blank? Para checar se o valor é nulo ou uma string em branco. Isto é,
+uma string que está vazio ou que consiste de espaços em branco.
