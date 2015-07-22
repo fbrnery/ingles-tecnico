@@ -1,4 +1,5 @@
 2.8 numericality
+
 This helper validates that your attributes have only numeric values.
 By default, it will match an optional sign followed by an integral or
 floating point number. To specify that only integral numbers are
@@ -9,7 +10,7 @@ If you set :only_integer to true, then it will use the
 Isto ajudar a validar este seu atributo, a ter somente valores númericos.
 Por padrão isto irá corresponder um sinal opcional, seguido de um número
 de ponto flutuante ou integrante. Para especificar somente  este numero
-integrante, são permitidos set: somente inteiro para verdeiro
+integrante, são permitidos set: somente inteiro para verdeiro.
 
 Regular expressão de validar os valores dos atributos, Caso contrário,
 isto irá converter o valor para um número utilizando Float.
