@@ -7,10 +7,11 @@ allowed set :only_integer to true.
 
 If you set :only_integer to true, then it will use the
 
-Isto ajudar a validar este seu atributo, a ter somente valores númericos.
+Este helper a validar que seus atributos, a ter somente valores númericos.
 Por padrão isto irá corresponder um sinal opcional, seguido de um número
-de ponto flutuante ou integrante. Para especificar somente  este numero
-integrante, são permitidos set: somente inteiro para verdeiro.
+de ponto flutuante ou integrante. Para especificar que apenas números
+inteiros são permitidos set: only_integer para true.
+
 
 Regular expressão de validar os valores dos atributos, Caso contrário,
 isto irá converter o valor para um número utilizando Float.
