@@ -1,0 +1,10 @@
+2.10 absence:
+
+This helper validates that the specified attributes are absent. It uses
+the present? method to check if the value is not either nil or a blank
+string, that is, a string that is either empty or consists of whitespace.
+
+
+Este helper validar que os especificados atributos são ausentes. Ele usa o metodo present,
+para checar se o valor não é nulo ou a string blank, esse é, a string que está vazia ou consiste
+em espaço em branco
