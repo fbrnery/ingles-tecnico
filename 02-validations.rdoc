@@ -8,3 +8,18 @@ string, that is, a string that is either empty or consists of whitespace.
 Este helper validar que os especificados atributos são ausentes. Ele usa o metodo present,
 para checar se o valor não é nulo ou a string blank, esse é, a string que está vazia ou consiste
 em espaço em branco
+
+
+2.11 uniqueness
+
+This helper validates that the attribute's value is unique right before the object gets saved.
+It does not create a uniqueness constraint in the database, so it may happen that two different
+database connections create two records with the same value for a column that you intend to be unique.
+To avoid that, you must create a unique index on both columns in your database. See the MySQL manual for
+more details about multiple column indexes.
+
+Este helper valida que o valor do atribuido é direito unico antes que o objeto é salvo. Ele não faz criar a
+restrição de exclusividade na database, por isso só pode acontecer que dois conexoes diferentes databases criar
+dois registros com o valor mesmo para a coluna que você ser unica. Para evitar isso, você deve criar um exclusivo
+index em ambas as colunas em seu database. Veja o manual mysql para mais detalhes sobre varios indices de coluna.
+
